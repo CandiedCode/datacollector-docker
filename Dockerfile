@@ -40,7 +40,7 @@ ARG SDC_UID=20159
 ARG SDC_GID=20159
 
 # Begin Data Collector installation
-ARG SDC_VERSION=3.16.0-SNAPSHOT
+ARG SDC_VERSION=3.20.0-SNAPSHOT
 ARG SDC_URL=http://nightly.streamsets.com.s3-us-west-2.amazonaws.com/datacollector/latest/tarball/streamsets-datacollector-core-${SDC_VERSION}.tgz
 ARG SDC_USER=sdc
 # SDC_HOME is where executables and related files are installed. Used in setup_mapr script.
